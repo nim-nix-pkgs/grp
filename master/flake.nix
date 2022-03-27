@@ -11,6 +11,7 @@
   inputs.src-grp-master.ref   = "refs/heads/master";
   inputs.src-grp-master.owner = "achesak";
   inputs.src-grp-master.repo  = "nim-grp";
+  inputs.src-grp-master.dir   = "";
   inputs.src-grp-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
